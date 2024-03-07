@@ -1,0 +1,9 @@
+body{
+    background-color: #98bec9;
+    /* background-image: url(pexels-photo-6120213.png); */
+}
+
+.center_align{
+    text-align: center;
+    font-size: 50px;
+}

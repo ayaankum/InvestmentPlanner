@@ -1,0 +1,90 @@
+.topnav {
+  overflow: hidden;
+  background-color: rgb(223, 212, 119);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(114, 153, 198);
+  background: linear-gradient(
+    90deg,
+    rgba(114, 153, 198, 1) 0%,
+    rgba(43, 117, 203, 1) 50%,
+    rgba(114, 153, 198, 1) 100%
+  );
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom-color: #ffce00;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #696969;
+}
+
+li:nth-last-child(1) {
+  border-right: none;
+  padding-right: 20px;
+  float: right;
+}
+
+.active {
+  background-color: #ffe371;
+  color: black;
+}
+
+.user {
+  color: #ffdb4b;
+}
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #2b75cb;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #0017c7;
+  font-size: 18px;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
